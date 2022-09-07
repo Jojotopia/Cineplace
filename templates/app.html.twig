@@ -1,0 +1,13 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Cinéplace{% endblock %}</title>
+    <link rel="icon" href="{{asset('img/mini-icone.svg')}}">
+    {{ encore_entry_link_tags('app') }}
+  </head>
+  <body>
+    <!-- Point d'entrer VueJS -->
+    <div id="app"></div>
+    {{ encore_entry_script_tags('app') }}
+  </body>
+</html>

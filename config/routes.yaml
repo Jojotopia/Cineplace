@@ -1,0 +1,7 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+#Permet de se connecter dans un formulaire VueJS
+api_login_check:
+    path: /api/login_check

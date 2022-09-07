@@ -1,0 +1,64 @@
+@media screen and (min-width: 768px){
+    /*descriptionFilm.php*/
+    .details_film_container, .description_commande_container{
+        width: 50%;
+    }
+
+    /*General*/
+    #home_link{
+        width: 8rem;
+    }
+    #home_link img{
+        content: url("../img/icone.svg");
+    }
+    #open_menu_button, #close_menu_button{
+        display: none;
+    }
+    nav{
+        position: fixed;
+        right: 0;
+        width: auto;
+        height: 3.5rem;
+        flex-direction: row;
+        align-items: center;
+        max-width: 40%;
+        flex-wrap: wrap;
+        contain: content;
+        justify-content: space-between;
+    }
+    nav a, nav router-link, nav input{
+        color: white;
+        text-decoration: none;
+        padding: 0.5rem;
+        border-top: none;
+        border-left: solid 2px white;
+    }
+    nav a:last-child, nav router-link:last-child, nav input:last-child{
+        border-bottom: none;
+    }
+    nav a:hover, nav router-link:hoverr, nav input:hover{
+        background-color: #345;
+    }
+    .filter_form{
+        border-top: none;
+        border-left: solid 2px white;
+        padding: 0.25rem;
+        border-bottom: none;
+    }
+    .filter_form select{
+        margin: 0;
+    }
+
+    /* admin.php */
+    #admin_button_section{
+        align-content: space-evenly;
+        height: 80vh;
+    }
+}
+
+@media screen and (min-width: 485px){
+    /*admin.php*/
+    .admin_container{
+        width: 50%;
+    }
+}

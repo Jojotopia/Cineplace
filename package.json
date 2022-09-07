@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "axios": "^0.26.1",
+    "pinia": "^2.0.13",
+    "vue": "^3.2.33",
+    "vue-loader": "^17.0.0",
+    "vue-router": "^4.0.14",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.1.0",
+    "@symfony/webpack-encore": "^1.8.2",
+    "@vitejs/plugin-vue": "^2.1.0",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "eslint": "^8.5.0",
+    "eslint-plugin-vue": "^8.2.0",
+    "prettier": "^2.5.1",
+    "vite": "^2.7.13",
+    "webpack-dev-server": "^4.8.1"
+  },
+  "scripts": {
+    "dev": "vite",
+    "encore": "encore",
+    "watch": "encore dev --watch"
+  }
+}
