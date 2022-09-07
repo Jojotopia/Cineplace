@@ -1,3 +1,3 @@
 # Cineplace
 
-Cinéplace is an online cinema ticket booking site, it lets you know which films are available in the cinema as well as showing times and other information about the films. If you create an account, you can then reserve your places and find them in your account. As an administrator you will be able to add, modify and delete films, screenings, categories... in the Admin area of the site.
+Cinéplace est un site de réservation de places de cinéma en ligne, il vous permet de savoir quel films sont disponibles dans le cinéma ainsi que les horaires des projections et d'autres informations sur les films. Si vous créer un compte, vous pourrez alors réserver vos places et les retrouver dans votre espace. En tant qu'administrateur vous pourrez ajouter, modifier et supprimer tous ce qui est proposé sur le site depuis l'espace Admin.
